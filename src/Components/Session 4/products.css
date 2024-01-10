@@ -1,0 +1,46 @@
+.container
+{
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .product
+{
+    /* box-sizing: content-box; */
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container .product img
+{
+    margin-top:20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.container .product button{
+    background-color: #10a0a0;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition:all .3s;
+}
+.container .product button:hover
+{
+    transition: .3s;
+    transform: scale(1.2);
+}
